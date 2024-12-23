@@ -1,0 +1,93 @@
+<html>
+<head>
+  <title>Anime Manga</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .header, .footer {
+      text-align: center;
+      padding: 20px;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+    }
+
+    .row {
+      display: flex;
+    }
+
+    .sidebar {
+      width: 20%;
+      padding: 10px;
+    }
+
+    .main-content {
+      flex-grow: 1;
+      padding: 10px;
+    }
+
+    .column {
+      width: 20%;
+      padding: 10px;
+    }
+
+    .content {
+      margin-left: 10px;
+      flex-grow: 1;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>Anime Manga</h1>
+  </div>
+
+  <div class="container">
+    <div class="row" style="height: 18%;">
+      <div class="sidebar">
+        <iframe src="logo.html" style="width: 100%; height: 100%;"></iframe>
+      </div>
+      <div class="sidebar">
+        <iframe src="title.html" style="width: 100%; height: 100%;"></iframe>
+      </div>
+    </div>
+    <div class="row" style="height: 8%;">
+      <div class="column">
+        <iframe src="home.html" style="width: 100%; height: 100%;"></iframe>
+      </div>
+      <div class="column">
+        <iframe src="login.html" style="width: 100%; height: 100%;"></iframe>
+      </div>
+      <div class="column">
+        <iframe src="cataloge.html" style="width: 100%; height: 100%;"></iframe>
+      </div>
+      <div class="column">
+        <iframe src="contact.html" style="width: 100%; height: 100%;"></iframe>
+      </div>
+      <div class="column">
+        <iframe src="cart.html" style="width: 100%; height: 100%;"></iframe>
+      </div>
+    </div>
+    <div class="row" style="flex-grow: 1;">
+      <div class="sidebar">
+        <iframe src="services.html" style="width: 100%; height: 100%;"></iframe>
+      </div>
+      <div class="content">
+        <iframe name="fr9" style="width: 100%; height: 100%;"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>Footer content here.</p>
+  </div>
+
+</body>
+</html>
